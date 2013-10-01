@@ -1,6 +1,29 @@
 {
     "name": "openify/wordpress-composer",
-    "require": {
-        "twig/twig": "1.*"
-    }
+    "repositories": [
+      {
+          "type": "package",
+          "package": {
+              "name": "openify/wordpress-composer",
+              "type": "webroot",
+              "version": "dev-master",
+              "source": {
+                  "type": "git",
+                  "url": "git@bitbucket.org:sylwit/wordpress-composer",
+                  "reference": "master"
+              },
+              "require": {
+                  "fancyguy/webroot-installer": "1.1.0"
+              }
+          }
+      }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "openify/wordpress-composer": "dev-master"
+  },
+  "extra": {
+      "webroot-dir": "wp",
+      "webroot-package": "openify/wordpress-composer"
+  }
 }

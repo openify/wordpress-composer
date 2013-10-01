@@ -1,4 +1,5 @@
 {
+    "name": "openify/wordpress-composer",
     "require": {
         "twig/twig": "1.*"
     }

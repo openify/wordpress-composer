@@ -8,7 +8,7 @@
               "version": "dev-master",
               "source": {
                   "type": "git",
-                  "url": "git@bitbucket.org:openify/wordpress-composer",
+                  "url": "git@bitbucket.org:sylwit/wordpress-composer",
                   "reference": "dev-master"
               },
               "require": {

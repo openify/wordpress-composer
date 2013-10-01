@@ -5,7 +5,7 @@
           "package": {
               "name": "openify/wordpress-composer",
               "type": "webroot",
-              "version": "dev-master",
+              "version": "master",
               "source": {
                   "type": "git",
                   "url": "git@bitbucket.org:sylwit/wordpress-composer",
@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=5.3.0",
-    "openify/wordpress-composer": "dev-master"
+    "openify/wordpress-composer": "master"
   },
   "extra": {
       "webroot-dir": "wp",

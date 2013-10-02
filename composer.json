@@ -11,6 +11,9 @@
                     "type": "git",
                     "url": "https://github.com/WordPress/WordPress.git",
                     "reference": "3.5.1"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
                 }
             }
         }

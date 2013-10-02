@@ -10,7 +10,7 @@
               "source": {
                   "type": "git",
                   "url": "git@bitbucket.org:sylwit/wordpress-composer.git",
-                  "reference": "master"
+                  "reference": "dev-master"
               },
               "require": {
                   "fancyguy/webroot-installer": "1.1.0"

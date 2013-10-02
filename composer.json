@@ -1,5 +1,4 @@
 {
-    "name": "openify/wordpress-composer",
     "repositories": [
       {
           "type": "package",

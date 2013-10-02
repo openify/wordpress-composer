@@ -1,7 +1,7 @@
 {
     "name": "openify/wordpress-composer",
     "require": {
-        "wordpress/wordpress": "3.5.*"
+        "wordpress/wordpress": "3.5.*",
         "fancyguy/webroot-installer": "1.0.0"
     },
   "extra": {

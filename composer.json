@@ -1,29 +1,28 @@
 {
     "name": "openify/wordpress-composer",
     "repositories": [
-      {
-          "type": "package",
-          "package": {
-              "name": "sylwit/wordpress-composer",
-              "type": "webroot",
-              "version": "dev-master",
-              "source": {
-                  "type": "git",
-                  "url": "git@github.com:openify/wordpress-composer.git",
-                  "reference": "master"
-              },
-              "require": {
-                  "fancyguy/webroot-installer": "1.1.0"
-              }
-          }
-      }
-  ],
-  "require": {
-    "php": ">=5.3.0",
-    "sylwit/wordpress-composer": "dev-master"
-  },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "type": "webroot",
+                "version": "3.5.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/WordPress/WordPress.git",
+                    "reference": "3.5.1"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wordpress/wordpress": "3.5.*"
+    },
   "extra": {
       "webroot-dir": "wp",
-      "webroot-package": "sylwit/wordpress-composer"
+      "webroot-package": "wordpress/wordpress"
   }
 }

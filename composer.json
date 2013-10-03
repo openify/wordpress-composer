@@ -1,29 +1,8 @@
 {
     "name": "openify/wordpress-composer",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "wordpress/wordpress",
-                "type": "webroot",
-                "version": "3.5.1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/WordPress/WordPress.git",
-                    "reference": "3.5.1"
-                },
-                "require": {
-                    "fancyguy/webroot-installer": "1.0.0"
-                }
-            }
-        }
-    ],
+    "description": "Install wordpress via composer",
+    "keywords": ["wordpress"],
     "require": {
-        "wordpress/wordpress": "3.5.*",
         "fancyguy/webroot-installer": "1.0.0"
-    },
-  "extra": {
-      "webroot-dir": "wp",
-      "webroot-package": "wordpress/wordpress"
-  }
+    }
 }

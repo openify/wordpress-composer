@@ -4,5 +4,10 @@
     "keywords": ["wordpress"],
     "require": {
         "fancyguy/webroot-installer": "1.0.0"
+    },
+    "extra": {
+      "webroot-dir": "wp",
+      "webroot-package": "openify/wordpress-composer"
     }
+
 }
